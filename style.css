@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.wrap{
+    height: 500px;
+    width: 355px;
+    padding: 10px;
+    margin: 10%;
+}
+input{
+    font-size: 25px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: rgb(33, 179, 16);
+}
+.button{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    font-size: 25px;
+    font: bold;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+}
+.equal{
+    width: 145px;
+    height: 70px;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.Cbutton {
+    position: relative;
+    border: 2px solid rgb(255, 13, 0);
+    box-shadow: 0 0 10px rgb(255, 30, 0);
+    transition: all 0.3s ease-in-out;
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px red;
+    }
+    100% {
+        box-shadow: 0 0 20px red, 0 0 30px red;
+    }
+}
+.number-button {
+    position: relative;
+    border: 2px solid darkblue;
+    box-shadow: 0 0 10px darkblue;
+    transition: all 0.3s ease-in-out;
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px darkblue;
+    }
+    100% {
+        box-shadow: 0 0 20px rgb(14, 1, 86), 0 0 30px darkblue;
+    }
+}
+
+.operator-button {
+    position: relative;
+    border: 2px solid darkblue;
+    box-shadow: 0 0 10px darkblue;
+    transition: all 0.3s ease-in-out;
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px darkblue;
+    }
+    100% {
+        box-shadow: 0 0 20px rgb(2, 13, 104), 0 0 30px darkblue;
+    }
+}
+
+.equal-button {
+    position: relative;
+    border: 2px solid darkblue;
+    box-shadow: 0 0 10px darkblue;
+    transition: all 0.3s ease-in-out;
+    animation: glowing 1.5s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px darkblue;
+    }
+    100% {
+        box-shadow: 0 0 20px rgb(2, 13, 104), 0 0 30px darkblue;
+    }
+}
+
+
